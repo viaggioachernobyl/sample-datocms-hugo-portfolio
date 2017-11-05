@@ -15,7 +15,7 @@
     "start": "dato check && concurrently -p \"[{name}]\" -c \"blue,red,green,yellow\" -k -n hugo,webpack,livereload,dato \"npm run start:hugo\" \"npm run start:assets\" \"npm run start:livereload\" \"npm run start:datocms\""
   },
   "dependencies": {
-    "datocms-client": "^0.3.10",
+    "datocms-client": "^0.3.17",
     "imagesloaded": "^4.1.1",
     "livereload": "^0.6.0",
     "lory.js": "^2.2.1",
